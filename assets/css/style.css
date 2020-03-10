@@ -515,7 +515,7 @@ p {
   margin-bottom: 20px;
 }
 
-#contact-hero {
+.contact-hero {
   background: -moz-linear-gradient(45deg, #ffffff 1%, #FFB98B 46%, #EC8481 99%); /* FF3.6-15 */
   background: -webkit-linear-gradient(45deg, #ffffff 1%,#FFB98B 46%,#EC8481 99%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(225deg, #ffffff 1%,#FFB98B 46%,#EC8481 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
