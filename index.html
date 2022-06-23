@@ -16,11 +16,11 @@
   <link rel="icon" href="img/logo.png"> -->
   <!--need to edit between these -->
 
-  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <script src="assets/js/jquery-3.3.1.min.js"></script>
-  <script src="assets/js/bootstrap.min.js"></script>
-  <link rel="shortcut icon" type="image/png" href="assets/img/icons8-mind-map-512.png">
+  <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <link rel="shortcut icon" type="image/png" href="../assets/img/icons8-mind-map-512.png">
   <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
@@ -41,23 +41,24 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                  <a class="navbar-brand" href="#">
+                  <a class="navbar-brand" href="../index.html">
+                    
                     <h3>AJ Cuddeback</h3>
-                      <!-- Navbar logo -->
-                      <!-- <img src="assets/img/CSPlusSocialGood.png" class="logo">  -->
+                      <!-- Navbar logo (add name here )-->
+                      <!-- <img src="assets/img/CSPlusSocialGood.png" class="logo">  --> 
                   </a>
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                   <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <!-- <li><a href="#hobbies">Hobbies</a></li> -->
+                    <li ><a href="../index.html#home">Home</a></li>
+                    <li><a href="../index.html#about">About</a></li>
+                    <!-- <li><a href="../index.html#hobbies">Hobbies</a></li> -->
                     <!-- <li><a href="#mission">Mission</a></li> -->
                     <!-- <li><a href="#team">Team</a></li> -->
                   <li><a href="#contact">Contact</a></li>
-                  <li><a href="./projects/index.html">Projects</a></li>
-                  <li><a href="https://github.com/acuddeback"><img src="./assets/img/github-512.png" class="nav-logo"></a></li>
-                  <li><a href="https://www.linkedin.com/in/anna-cuddeback/"><img src="./assets/img/linkedin-256.png" class="nav-logo"></a></li>
+                  <li class="active"><a href="./faq/index.html">Projects</a></li>
+                  <li><a href="https://github.com/acuddeback"><img src="../assets/img/github-icon-png-7.png" class="nav-logo"></a></li>
+                  <li><a href="https://www.linkedin.com/in/anna-cuddeback/"><img src="../assets/img/linkedin-256.png" class="nav-logo"></a></li>
                   </ul>
                 </div>
               </div>
@@ -67,252 +68,243 @@
       </div>
     </div>
   </nav>
-  
-  <!-- HOME 
-  <section id="home">
-    <div class="container centered-column">
-      <div id="splash" class="col-xs-11 centered-column-center">
-        <div class="col-lg-9 col-md-10 col-sm-11 col-xs-12 home-container">
-            <h3 id="splash-1">Anna Cuddeback,</h3>
-            <img id="splash-logo" src="assets/img/Logo White.png">
-            <h4 id="splash-2">
-              now
-              <strong>own it.</strong>
-            </h4>
+
+  <!-- FAQ -->
+  <section id="faq" class="main faq">
+    <div class="container">
+      <div class="col-xs-11">
+        <h3>Projects</h3>
+        <div class="faq-index">
+          <!-- Programming -->
+          <!-- <br>
+          <h4>Programming</h4>
+          <br> -->
+          <div class="item">
+            <div class="space-between-row">
+              <div class="title" id="nasa-proj">NASA Multi-Modal Image Engineering Project</div>
+              <div class="arrows">
+                
+                <i class="fa fa-angle-down"></i>
+              </div>
+            </div>
+            <div class="body" id="nasa-proj-body">
+              <p>
+                This project was developed as part of the Summer 2020 NASA OSTEM internship program. 
+                It involves the engineering of a pipeline to combine Geostationary Lightning 
+                Monitoring (GLM) data with Visible and Infrared imagery to improve Above Anvil Cirrus 
+                Plume (AACP) detection. 
+              </p>
+              <p>
+                The final presentation slides for this project can be found <a href="https://drive.google.com/file/d/1B81HRSL7HGXf_OUrIEprckstlD25X76y/view?usp=sharing">here</a>.
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="space-between-row">
+              <div class="title" id="nasa-proj">Micro Purge and Trap Device for GC on Aqueous Solutions</div>
+              <div class="arrows">
+                
+                <i class="fa fa-angle-down"></i>
+              </div>
+            </div>
+            <div class="body" id="nasa-proj-body">
+              <p>
+                This project was developed as part of the 2021 Virginia Microelectronics Consortium Summer Scholars program. 
+                The purpose of the project was to develop a micro purge and trap device to integrate with existing gas chromatography (GC) technology to allow for portable GC systems.
+              </p>
+              <p>
+                The final presentation slides for this project can be found <a href="https://drive.google.com/file/d/1rDLMgrHBHbEAIGFvnLaAFeolHv8srlqj/view?usp=sharing">here</a>.
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="space-between-row">
+              <div class="title" id="lept-proj">Lepton Identification Neural Network</div>
+              <div class="arrows">
+                
+                <i class="fa fa-angle-down"></i>
+              </div>
+            </div>
+            <div class="body" id="lept-proj-body">
+              
+              <p>
+                A project for distinguishing between electrons and muons in a set of simulated particle collision data. 
+                The prioject explores a compbination of machine learning and event reconstruction techniques for event classification. 
+              </p>
+              <p> 
+                The Github repository for the project can be found <a href="https://github.com/neu-physics/leptonIdentificationNN">here</a>.
+              </p>
+              <p>
+                The presentation slides from the 2019 UVA Undergraduate Research Symposium can be found <a href="https://drive.google.com/file/d/1Xg78Pnga6rK3D3b9V_VMnw40EDE2V5_u/view?usp=sharing">here</a>.
+              </p>
+            </div>
+          </div>
+          <!-- <div class="item">
+            <div class="space-between-row">
+              <div class="title">How do I join?</div>
+              <div class="arrows">
+                <i class="fa fa-angle-down"></i>
+              </div>
+            </div>
+            <div class="body">
+              <p>Send Chase an email at scd3dz@virginia.edu :)
+              </p>
+            </div>
+          </div> -->
+          <!-- <div class="item">
+              <div class="space-between-row">
+                <div class="title">Do I have to know how to code?</div>
+                <div class="arrows">
+                  <i class="fa fa-angle-down"></i>
+                </div>
+              </div>
+              <div class="body">
+                <p>Nope! We plan on having weekly/bi-weekly meetings to work through online courses with oversight and guidance.
+                </p>
+              </div>
+          </div> -->
+          <!-- Hardware -->
+          <!-- <br>
+          <h4>Hardware</h4>
+          <br> -->
+          <!-- <div class="item">
+            <div class="space-between-row">
+              <div class="title">Coupling Circuit</div>
+              <div class="arrows">
+                <i class="fa fa-angle-down"></i>
+              </div>
+            </div>
+            <div class="body">
+              <p>Project for ECE 2630
+              </p>
+            </div>
+          </div> -->
+          <!-- 
+          <div class="item">
+            <div class="space-between-row">
+              <div class="title">Neural Network Analysis GUI </div>
+              <div class="arrows">
+                <i class="fa fa-angle-down"></i>
+              </div>
+            </div>
+            <div class="body">
+              <p>Project for ENGR 1420 - Synthesis Design II at the University of Virginia. 
+              </p>
+              <a href="https://github.com/acuddeback/nn-analysis-gui">Github repository</a> <br>
+              <a href="https://docs.google.com/presentation/d/1bwDLXgdqQPCjDyiTOKPJI5aWcOSVfsV24QSILOJ1lWk/edit?usp=sharing">Final Presentation Slides</a>
+            </div>
+          </div> 
+          -->
+            <!-- Misc -->
+            <!-- <br>
+            <h4>Miscellaneous Projects</h4>
+            <br> -->
+            <div class="item"> <!-- meme ted talk-->
+              <div class="space-between-row">
+                <!-- Meme ted talk -->
+                <div class="title">TEDxUVA</div>
+                <div class="arrows">
+                  <i class="fa fa-angle-down"></i>
+                </div>
+              </div>
+              <div class="body">
+              <!-- meme ted talk description -->
+                <p>In the Winter of 2019 I gave a TEDx talk on Memes and why they matter for the TEDxUVA student speaker competition. 
+                  I was one of 2 speakers out of 10 chosen at that competition to give my talk at the main conference in the Spring of 2020. 
+                  The video below is from the main conference. 
+                </p>
+                <iframe id="tedx-video" src="https://www.youtube.com/embed/B8dn_q7rSCo" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+              </div>
+            </div>
+            <!--misc proj 2-->
+            <div class="item">
+              <div class="space-between-row">
+                <div class="title">Music Visualizer</div>
+                <div class="arrows">
+                  <i class="fa fa-angle-down"></i>
+                </div>
+              </div>
+              <div class="body">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/-BAqv9DCwNo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>This is a demonstration of the functionality of a music visualizer built as a final project for ECE 2660 - Fundamentals of Electrical Engineering II at the University of Virginia. The song played is "Such Great Heights" by the Postal Service.
+                </p>
+                <p>
+                  The final presentation forthis project can be found <a href="https://docs.google.com/presentation/d/1YKRFhnvCkzU1x84EzUH1aySK0DTUZ9ttAtTfscQxcmo/edit#slide=id.g775ced1e67_0_36">here</a>.
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="space-between-row">
+                <div class="title" id="lept-proj">USB MIDI FPGA Synthesizer</div>
+                <div class="arrows">
+                  
+                  <i class="fa fa-angle-down"></i>
+                </div>
+              </div>
+              <div class="body" id="lept-proj-body">
+                
+                <p>
+                  A monophonic synthesizer built using an FPGA and a MIDI USB Keyboard. Submitted as a final project for the UVA ECE 4550 - FPGA Design class.
+                 </p>
+                <p> 
+                  The Github repository for the project can be found <a href="https://github.com/willzhang05/fpga-synthesizer">here</a>.
+                </p>
+                <p>
+                  The presentation slides from the final project demo can be found <a href="https://docs.google.com/presentation/d/1RXsgZQ94-IWgU1yJApUiKSe472B8ibc7SvwmnRpco1U/edit?usp=sharing">here</a>.
+                </p>
+                <p>
+                  The full project writeup submitted at the end of the class can be found <a href="http://venividiwiki.ee.virginia.edu/mediawiki/index.php/USB_MIDI_Wavetable_Synthesizer">here</a>. 
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="space-between-row">
+                <div class="title">Solar Powered Bicycle Safety Alert System</div>
+                <div class="arrows">
+                  <i class="fa fa-angle-down"></i>
+                </div>
+              </div>
+              <div class="body">
+                <p> This project, Sentinel, was completed for the fulfillment of the capstone requirement of a B.S. in Electrical Engineering at the University of Virginia. The device is a solar-powered object-detection system to alert cyclists when vehicles approach from behind. 
+                </p>
+                <p>
+                  The project proposal describes the project objectives, anticipated technical implementation, and metrics used to determine project success. 
+                  The full document can be found here: <a href="https://drive.google.com/file/d/17ro3CaS2Iq7opDJY40ImTXDQRO8EamIh/view?usp=sharing">ECE Capstone Project Proposal</a>
+                </p> 
+
+                <p>
+                  The final project demo <a href="https://drive.google.com/file/d/1jw1j1WkkO9yTwp6wMpN0alOam4NU3J2J/view?usp=sharing">video</a> discusses the design motivations, project objectives, constructed design, and lessons learned throughout the semester-long capstone experience. The <a href="https://drive.google.com/file/d/1YkjvIgfezZkxmmrCCLQRDh-irJf8x7oc/view?usp=sharing">final report</a> details technical construction of the device as well as the fullfilment of metrics, design for environmental sustainability, and technical challenges that arose during the design and construction process.
+                </p>
+              </div>
+            </div>
+            <!--misc proj 3-->
+            <!-- <div class="item">
+                <div class="space-between-row">
+                  <div class="title">Do I have to know how to code?</div>
+                  <div class="arrows">
+                    <i class="fa fa-angle-down"></i>
+                  </div>
+                </div>
+                <div class="body">
+                  <p>Nope! We plan on having weekly/bi-weekly meetings to work through online courses with oversight and guidance.
+                  </p>
+                </div>
+              </div> -->
+          </div>
         </div>
       </div>
+
     </div>
-  </section> -->
-
-    <!-- HOME -->
-    <section id="home">
-      <div class="white-trans">
-        <div class="container centered-column">
-          <div id="splash" class="col-xs-11 centered-column-center">
-            <div class="col-lg-6 col-md-7 col-sm-10 col-xs-12 home-container">
-                <h3 id="splash-1">AJ Cuddeback </h3>    <!-- Title -->
-                <h4 id="splash-2">
-                  at the
-                  <strong>University of Virginia</strong>
-                </h4>
-            </div>
-          </div>
-        </div>
-      </div>
-      </section>
-
-  <!-- ABOUT -->
-  <section id="about" class="pale-gray">
-    <div class="container centered-column">
-      <div class="col-xs-11 centered-column">
-        <h2>ABOUT</h2>
-        <p class="col-sm-12 col-md-10">
-          I am a student at the University of Virginia Studying Electrical Engineering and Computer Engineering. 
-          I am passionate about the intersection of technology and society, outdoor recreation, and intersectional environmentalism. 
-        </p>
-        <h5>Project Areas</h5>
-        <div class="col-sm-12 hidden-xs centered-column">
-          <img src="assets/img/lines.png" class="lines">
-        </div>
-        <div class="col-xs-12">
-          <div class="row">
-            
-            <div class="col-sm-4 col-xs-12 centered-column about-image">
-              <a href="projects/index.html#lept-proj"><img src="assets/img/lept-id-network-acc.png"></a>
-              <h4>Programming</h4>
-              <p>While most of my academic coursework focuses on hardware engineering, I have a strong background in programming and data science </p>
-            </div>
-            <div class="col-sm-4 col-xs-12 centered-column about-image">
-              <a href="projects/index.html"><img src="assets/img/ultiboard-f19-final.png"></a>
-              <h4>Hardware</h4>
-              <p>Through my classes, I have built several hardware projects involving both digital and analog systems.</p>
-            </div>
-            <div class="col-sm-4 col-xs-12 centered-column about-image">
-              <a href="projects/index.html"><img src="assets/img/pikachu-meme-meme.png"></a>
-              <h4>Hobbies</h4>
-              <p>The internet meme is becoming one of the primary ways that we spred information, so I wrote a talk about that.</p>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   </section>
 
-      <!-- Hobbies  -->
-      <!-- <section id="hobbies">
-          <div class="white-transparent" id="hobbies-container">
-            <div class="container centered-column">
-              <div class="col-xs-11 centered-column-center">
-                <div class="row">
-                  <div class="centered-column-center">
-                    <h2>Hobbies</h2>
-                    <p class="col-xs-12 col-md-10">
-                    I do things sometimes
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>  
-          </div>
-        </section> -->
-
-  <!-- MISSION STATEMENT 
-  <section id="mission" class="pale-gray">
-      <div class="container centered-column">
-        <div class="col-xs-11 space-between-row">
-          <div class="col-sm-5 hidden-xs">
-              <div class="row">
-                <div class="centered-column-center mission-image">
-                    <img src="assets/img/studentGroup.jpg" class="col-xs-12">
-                </div>  
-              </div>
-            </div>
-          <div class="col-sm-6 col-xs-12">
-            <div class="row">
-              <div>
-                <h4><strong>The Mission of Anna Cuddeback</strong></h4>
-                <p>
-                  is to facilitate and promote high quality technical hobbies for social good. 
-                </p>
-              </div>  
-            </div>
-          </div>
-        </div>
-         <hr class="col-xs-11"/> 
-      </div>  
-  </section> -->
-
-  <!-- TEAM
-  <section id="team" class="pale-gray">
-    <div class="container centered-column">
-      <div class="col-xs-11 centered-column">
-        <h2>TEAM</h2>
-        <div class="col-xs-12">
-          <div class="row">
-            <div class="centered-column team-image col-sm-4 col-xs-12">
-              <img src="assets/img/team/Team_Maria.jpg">
-              <div class="centered-column">
-                <h4>Maria Galebach</h4>
-              </div>
-              <div class="centered-column">
-                <h5>Developer</h5>
-              </div>
-              <div class="centered-row">
-                <a target="_blank" href="https://www.linkedin.com/in/maria-g-b25477111/">
-                  <img class="social-icon" src="assets/img/social/linkedin.png">
-                </a>
-                <a target="_blank" href="https://github.com/mgalebach">
-                  <img class="social-icon" src="assets/img/social/github.png">
-                </a>
-              </div>
-            </div>
-            <div class="centered-column team-image col-sm-4 col-xs-12">
-              <img src="assets/img/team/Team_Anna.jpg">
-              <div class="centered-column">
-                <h4>Anna Cuddeback</h4>
-              </div>
-              <div class="centered-column">
-                <h5>Developer</h5>
-              </div>
-              <div class="centered-row">
-                <a target="_blank" href="https://www.linkedin.com/in/anna-cuddeback/">
-                  <img class="social-icon" src="assets/img/social/linkedin.png">
-                </a>
-                <a target="_blank" href="https://github.com/acuddeback">
-                  <img class="social-icon" src="assets/img/social/github.png">
-                </a>
-              </div>
-            </div>
-            <div class="centered-column team-image col-sm-4 col-xs-12">
-              <img src="assets/img/team/Team_BG.jpg">
-              <div class="centered-column">
-                <h4>Bernice Galebach</h4>
-              </div>
-              <div class="centered-column">
-                <h5>Marketing & Research</h5>
-              </div>
-              <div class="centered-row">
-                <a target="_blank" href="https://www.linkedin.com/in/bernice-galebach-b54a84a6/">
-                  <img class="social-icon" src="assets/img/social/linkedin.png">
-                </a>
-              </div>
-            </div>
-            <div class="centered-column team-image col-sm-4 col-xs-12">
-              <img src="assets/img/team/Team_JT.jpg">
-              <div class="centered-column">
-                <h4>Justine Tien</h4>
-              </div>
-              <div class="centered-column">
-                <h5>Marketing & Research</h5>
-              </div>
-              <div class="centered-row">
-                <a target="_blank" href="https://www.linkedin.com/in/justinetien/">
-                  <img class="social-icon" src="assets/img/social/linkedin.png">
-                </a>
-                <a target="_blank" href="https://github.com/justinetien">
-                  <img class="social-icon" src="assets/img/social/github.png">
-                </a>
-              </div>
-            </div>
-            <div class="centered-column team-image col-sm-4 col-xs-12">
-              <img src="assets/img/team/Team_Carolyn2.jpg">
-              <div class="centered-column">
-                <h4>Carolyn Galebach</h4>
-              </div>
-              <div class="centered-column">
-                <h5>Marketing & Research</h5>
-              </div>
-              <div class="centered-row">
-                <a target="_blank" href="https://www.linkedin.com/in/carolyn-galebach-07a219167/">
-                  <img class="social-icon" src="assets/img/social/linkedin.png">
-                </a>
-              </div>
-            </div>
-            <div class="centered-column team-image col-sm-4 col-xs-12">
-              <img src="assets/img/team/Team_KC.JPG">
-              <div class="centered-column">
-                <h4>Kateryna Cuddeback</h4>
-              </div>
-              <div class="centered-column">
-                <h5>Scrum Master</h5>
-              </div>
-              <div class="centered-row">
-                <a target="_blank" href="https://www.linkedin.com/in/kateryna-cuddeback-765060156/">
-                  <img class="social-icon" src="assets/img/social/linkedin.png">
-                </a>
-              </div>
-            </div>
-            <div class="centered-column team-image col-sm-4 col-xs-12">
-              <img src="assets/img/team/Team_SG.jpg">
-              <div class="centered-column">
-                <h4>Stephen Galebach</h4>
-              </div>
-              <div class="centered-column">
-                <h5>Legal Counsel</h5>
-              </div>
-              <div class="centered-row">
-                <a target="_blank" href="https://www.linkedin.com/in/stephen-galebach-b215b99/">
-                  <img class="social-icon" src="assets/img/social/linkedin.png">
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
-
-  <!-- CONTACT -->
+  <!-- Contact 
   <section id="contact">
-    <div class="centered-column">
-      <h2>CONTACT</h2>
-      <!--change email address-->
-      <div class="contact-hero">
-        <div class="overlay centered-column-center">
+      <div class="centered-column">
+        <div class="contact-hero" id="contact-background">
           <div class="container centered-column">
-            <div class="contact-header">
-              <h4>Questions? 
-                Send me a message below!</h4>
+            <div class="contact-header centered-column">
+              <h4>Questions? Send me a message below!</h4>
             </div>
             <form action="https://formspree.io/atc4yk@virginia.edu" method="post" id="contactForm" name="corp-site-contact-form" class="validate _default row" target="_blank" novalidate="">
               <div id="contact-name-email" class="space-between-row">
@@ -337,36 +329,26 @@
           </div>
         </div>
       </div>
-    </div>
-    <p id="icons8-credit">Logos used from icons8.com</p>
-  </section>
-
-  <!--footer 
+    </section> -->
+  
+  <!--footer -->
   <footer class="centered-column">
     <h6>© 2020 Anna Cuddeback. All Rights Reserved.</h6>
-  </footer> -->
+  </footer>
 
   <!--javacript -->
   <script>
-    $(document).scroll(function() {
-      var position = $(this).scrollTop() + 80
-      $.fn.reverse = [].reverse;
-      $('section').reverse().each(function() {
-        var target = $(this).offset().top
-        var id = $(this).attr('id')
-        if (position >= target) {
-          $('.navbar-right li').removeClass('active')
-          $('.navbar-right li a[href="#' + id + '"]').parent().addClass('active')
-          return false;
-        } 
-      })
-    })
-
     $(document).on('click','.navbar-collapse.in',function(e) {
-    if( $(e.target).is('a:not(".dropdown-toggle")') ) {
+      if( $(e.target).is('a:not(".dropdown-toggle")') ) {
         $(this).collapse('hide');
-    }
-});
+      }
+    });
+
+    $(document).ready( function() {
+      $('.item .space-between-row').click(function(e) {
+        $(this).parent('.item').toggleClass('active');
+      });
+    });
   </script>
   <!-- Start of HubSpot Embed Code -->
   <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/4849547.js"></script>
